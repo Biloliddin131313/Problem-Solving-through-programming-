@@ -1,1 +1,8 @@
-
+# while loop 
+print('How many apples should i remove ? ')
+num_apples_to_remove = int(input())
+num_apples = 0 
+while num_apples < num_apples_to_remove:
+    print('Remove apple !')
+    num_apples += 1
+print('All apples removed !')
