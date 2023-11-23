@@ -16,3 +16,12 @@ while num_obstacles < users_response:
     num_obstacles += 1
     
 print(f'Done ! {users_response} obstacles  avoided !')
+
+
+print('How many bars should be charged ?')
+users_response = int(input())
+number_of_bars = 0 
+while number_of_bars < users_response:
+    print('Charging:', number_of_bars)
+    number_of_bars += 1
+print('The battery is fully charged !')
