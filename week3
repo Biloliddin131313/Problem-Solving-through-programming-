@@ -6,3 +6,13 @@ while num_apples < num_apples_to_remove:
     print('Remove apple !')
     num_apples += 1
 print('All apples removed !')
+
+# count
+print('How many obstacles must i avoid ?')
+users_response = int(input())
+num_obstacles = 0 
+while num_obstacles < users_response:
+    print("Avoiding.....")
+    num_obstacles += 1
+    
+print(f'Done ! {users_response} obstacles  avoided !')
